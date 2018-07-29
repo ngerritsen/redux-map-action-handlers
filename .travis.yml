@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "6"
+  - "8"
+  - "10"
+script:
+  - npm test
+  - npm run lint
+cache:
+  directories:
+    - "node_modules"
+deploy:
+  provider: npm
+  email: $NPM_EMAIL
+  api_key: $NPM_API_KEY
