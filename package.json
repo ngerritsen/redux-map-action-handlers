@@ -1,6 +1,6 @@
 {
   "name": "redux-map-action-handlers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Organize vanilla redux middlewares with action handlers.",
   "main": "index.js",
   "dependencies": {},

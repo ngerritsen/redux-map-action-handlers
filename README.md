@@ -29,9 +29,9 @@ async function removeTodo(store, action) {
 }
 ```
 
-The action handlers will fire when the middleware receives the corresponding action. The handler get's the store and the action passed in as arguments. The handlers are *async* functions in this example, but this is **not** required.
+The action handlers will fire when the middleware receives the corresponding action. The handler gets the store and the action passed in as arguments. The handlers are *async* functions in this example, but this is **not** required.
 
-> Handlers are fired **before** the next middleware is called, so synchronously calling `store.getState()` inside the handler will result in the state before the action is reduced.
+> Handlers are fired **before** the next middleware is called, so synchronously calling `store.getState()` inside the handler will result in the state before the state is updated.
 
 You can add the middleware you created to redux like any other middleware:
 
@@ -66,4 +66,4 @@ const customTodoMiddleware = store => {
 }
 ```
 
-This allows you create your own middleware while still having the advantage of organizing your action handlers. You could even create multiple action handlers to handle different actions after the state has updated.
+This allows you create your own middleware while still having the advantage of organizing your action handlers.
