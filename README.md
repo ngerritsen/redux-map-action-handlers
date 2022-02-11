@@ -1,3 +1,5 @@
+[![Pipeline Status](https://gitlab.com/ngerritsen/redux-map-action-handlers/badges/master/pipeline.svg)](https://gitlab.com/ngerritsen/redux-map-action-handlers/-/commits/master)
+
 # redux-map-action-handlers
 
 Want to use vanilla redux middleware, but want to keep it organized? This helper, inspired by redux-map-reducers, allows for creating a map that handles actions based on type, but still keeps the flexibility vanilla redux middleware offers.
@@ -56,7 +58,7 @@ const customTodoMiddleware = store => {
 
   next => action => {
     handleAction(store, action);
-    
+
     const result = next(action);
 
     // Do things with the updated state.

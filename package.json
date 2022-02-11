@@ -1,6 +1,6 @@
 {
   "name": "redux-map-action-handlers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Organize vanilla redux middlewares with action handlers.",
   "main": "dist.js",
   "dependencies": {},
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngerritsen/redux-map-action-handlers.git"
+    "url": "git+https://gitlab.com/ngerritsen/redux-map-action-handlers.git"
   },
   "keywords": [
     "redux",
@@ -28,7 +28,7 @@
   "author": "Niels Gerritsen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ngerritsen/redux-map-action-handlers/issues"
+    "url": "https://gitlab.com/ngerritsen/redux-map-action-handlers/issues"
   },
   "jest": {
     "testURL": "http://localhost/"
@@ -38,5 +38,5 @@
       "env"
     ]
   },
-  "homepage": "https://github.com/ngerritsen/redux-map-action-handlers#readme"
+  "homepage": "https://gitlab.com/ngerritsen/redux-map-action-handlers#readme"
 }
